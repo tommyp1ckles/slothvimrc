@@ -62,7 +62,7 @@ set tm=500
 " #Colors
 syntax enable
 "Note: This may not be what I want"
-set encoding=unicode
+set encoding=utf-8
 
 " use unix filetypes.
 set ffs=unix,dos,mac
@@ -154,3 +154,7 @@ set wildmenu
 set showmatch
 set incsearch
 set number
+
+cnoreabbrev W w
+cnoreabbrev X x
+
